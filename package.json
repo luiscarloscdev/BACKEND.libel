@@ -1,0 +1,32 @@
+{
+  "name": "libel-site",
+  "version": "1.0.0",
+  "description": "Proyecto para sitio de curso para Libel Studios",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha -w",
+    "coverage": "istanbul cover _mocha test --recursive"
+  },
+  "author": "Libel",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.1.1",
+    "express": "^4.16.3",
+    "express-joi-validator": "^2.0.0",
+    "express-validation": "^1.0.2",
+    "joi": "^13.6.0",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.10",
+    "mongoose-pagination": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3"
+  }
+}
